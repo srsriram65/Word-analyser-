@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+    <h1>Word Analyzer</h1>
+
+    <textarea id="textInput"
+        placeholder="Enter your text here..."></textarea>
+
+    <button onclick="analyzeText()">Analyze Text</button>
+
+    <div class="result">
+        <p>Total Words: <span id="wordCount">0</span></p>
+        <p>Total Characters: <span id="charCount">0</span></p>
+
+        <h2>Word Frequency</h2>
+        <div id="frequency"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
